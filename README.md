@@ -17,17 +17,7 @@ The philosophy behind Conductor is simple: control your code. By treating contex
 - **Build on existing projects**: Intelligent initialization for both new (Greenfield) and existing (Brownfield) projects.
 - **Smart revert**: A git-aware revert command that understands logical units of work (tracks, phases, tasks) rather than just commit hashes.
 
-## Cursor (global install)
-
-To use the same Conductor workflow in **Cursor** on any project:
-
-```bash
-./cursor/install.sh
-```
-
-Then in Cursor chat: `/conductor-setup` (once per project), then `/conductor-new-track`, `/conductor-implement`, etc. See [cursor/README.md](cursor/README.md).
-
-## Installation (Gemini CLI)
+## Installation
 
 Install the Conductor extension by running the following command from your terminal:
 
