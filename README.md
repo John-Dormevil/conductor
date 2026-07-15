@@ -28,18 +28,8 @@ coding agents. Choose the installation method for your environment below.
 
 Install directly from GitHub in a single command:
 
-**Stable Channel:**
-
 ```bash
 agy plugins install https://github.com/gemini-cli-extensions/conductor
-```
-
-**Canary Channel (Nightly/Development):** If you want to opt into the active
-development/canary stream to test upcoming features, install pointing to the
-`canary` branch:
-
-```bash
-agy plugins install https://github.com/gemini-cli-extensions/conductor@canary
 ```
 
 #### B. Developer Installation (Live-Sync Global Link)
