@@ -31,7 +31,7 @@ Install directly from GitHub in a single command:
 **Stable Channel:**
 
 ```bash
-antigravity plugins install https://github.com/gemini-cli-extensions/conductor
+agy plugins install https://github.com/gemini-cli-extensions/conductor
 ```
 
 **Canary Channel (Nightly/Development):** If you want to opt into the active
@@ -39,7 +39,7 @@ development/canary stream to test upcoming features, install pointing to the
 `canary` branch:
 
 ```bash
-antigravity plugins install https://github.com/gemini-cli-extensions/conductor@canary
+agy plugins install https://github.com/gemini-cli-extensions/conductor@canary
 ```
 
 #### B. Developer Installation (Live-Sync Global Link)
@@ -102,7 +102,7 @@ your Claude Code session:
 To safely remove Conductor from your environment:
 
 *   **Antigravity:**
-    *   **CLI Installation:** Run `antigravity plugins uninstall conductor`
+    *   **CLI Installation:** Run `agy plugins uninstall conductor`
     *   **Global Link:** Run `rm -f ~/.gemini/config/plugins/conductor`
     *   **Workspace Link:** Run `rm -f .agents/plugins/conductor`
 *   **Claude Code:** Run `/plugin remove conductor` and `/plugin marketplace
