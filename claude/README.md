@@ -2,6 +2,16 @@
 
 Port of [Gemini CLI Conductor](https://github.com/gemini-cli-extensions/conductor) to Claude Code slash commands.
 
+## Background
+
+Conductor originally shipped only as a Gemini CLI extension. This port exists because Claude Code
+users were asking for the same spec-driven workflow (`setup` → `newTrack` → `implement` → `status` →
+`revert` → `review`) that Gemini CLI users already had. The six Markdown commands under
+`.claude/commands/conductor/` reproduce the same protocol as the Gemini `.toml` commands — see the
+"Key differences" section in the root `CLAUDE.md` for what had to change (no Plan Mode equivalent,
+inline questions instead of `ask_user`, etc.). `install.sh` makes the port usable globally without
+cloning this repo into every project.
+
 ## Install (global, all projects)
 
 ```bash
